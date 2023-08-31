@@ -19,6 +19,7 @@ public class OperEx7 {
 		int year=2023;
 		//위의 년도가 윤년인지 아닌지 알아보자
 		System.out.println(year%4==0 && year%100!=0 || year%400==00);
+		
 	
 	}
 

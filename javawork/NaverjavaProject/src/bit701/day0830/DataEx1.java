@@ -4,15 +4,17 @@ public class DataEx1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		 
 		 System.out.print("apple");
 		 System.out.print("banana");
-		 System.out.println("orange");
+		 System.out.print("orange");
 		 
-		 //printf:변환기호에 의한 출력, 정수:%d,실수:%f,문자:%c,문자열:%ㄴ
+		 //printf:변환기호에 의한 출력, 정수:%d,실수:%f,문자:%c,문자열:%s
 		 //\n:줄넘김,\t:다음탭위치로 이동
 		 int age=23;
 		 double weight=56.7;
 		 char blood='A';
+		 
 		 String name="캐서린";
 		 System.out.printf("이름:%s\n\n", name);
 		 System.out.printf("나이:%d세\n\n", age);
