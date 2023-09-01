@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Noto+Serif+KR&family=PT+Serif&family=Poor+Story&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <style>
+        body {/*body의 모든 하위태그*/
+            font-size: 30px;
+        
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let su1=prompt("숫자1 입력",10);
+        let su2=prompt("숫자2 입력",20);
+        console.log("su1="+typeof(su1));//내부적으로 어떤 타입으로 저장되어있는지
+        console.log("su2="+typeof(su2));//둘다 string이다(string 일경우 +만 나열)
+
+
+        //let add=parseInt(su1)+parseInt(su2);//정수타입으로 변환후 계산한다
+
+        let add=Number(su1)+Number(su2);//정수든 실수든 문자열을 숫자타입으로 변환후 계산한다
+        let sub=su1-su2;
+        let mul=su1*su2;
+        let div=su1/su2;
+
+        let s= `<b>add=${add}<br>sub=${sub}<br>mul=${mul}<br>div=${div}<br>`;
+        
+        document.write(s);
+
+    </script>
+</body>
+</html>
