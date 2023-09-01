@@ -11,11 +11,15 @@ public class Ex1_keyinput {
 		//System.out.println("3의 5승:"+Math.pow(3, 5));
 		//System.out.println("5,7중 더 큰값은?"+Math.max(5, 7)); 
 		//new로 객체를 생성, 이 변수를 인스턴스 변수라고 한다.
+
 		
 		Scanner sc=new Scanner(System.in);
+		
 		System.out.println("당신의 나이를 입력하세요");
 		int age=sc.nextInt();
 		System.out.println("응!! 나는 "+age+"세야!!");
+		
+		
 		
 		//숫자입력후 문자열을 입력받는경우 입력안되는 현상 발생
 		//숫자입력후 발생하는 엔터값이 버퍼에 저장되는데 문자열입력시
