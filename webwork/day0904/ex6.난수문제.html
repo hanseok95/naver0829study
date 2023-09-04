@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="새로운 난수 발생하기" id="btnrnd">
+
+    <script>
+        let rnd;//난수를 구할 변수
+        //난수버튼 이벤트
+        document.getElementById("btnrnd").onclick=function(){
+            //1~100 사이의 난수구하기
+            rnd=parseInt((math.random()*100))+1;
+            //console 에 출력
+            
+            console.log(rnd);
+
+
+        }
+    </script>
+</body>
+</html>
